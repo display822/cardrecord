@@ -16,6 +16,7 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.TextView;
 
 /**
  * Created by dongzhong on 2018/5/30.
@@ -29,7 +30,7 @@ public class FloatingButtonService extends Service {
     private int nums[] = null;
     private View displayView;
 
-    private RotateTextView numx, numy, num2, num1, numk, numq, numj, num10,
+    private TextView numx, numy, num2, num1, numk, numq, numj, num10,
             num9, num8, num7, num6, num5, num4, num3, btClose, btReset;
 
     private FloatingOnTouchListener clickListener;
@@ -68,8 +69,8 @@ public class FloatingButtonService extends Service {
         layoutParams.format = PixelFormat.RGBA_8888;
         layoutParams.gravity = Gravity.LEFT | Gravity.TOP;
         layoutParams.flags = WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL | WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE;
-        layoutParams.width = DisplayUtil.dp2px(this, 80);
-        layoutParams.height = DisplayUtil.dp2px(this, 640);
+        layoutParams.width = DisplayUtil.dp2px(this, 640);
+        layoutParams.height = DisplayUtil.dp2px(this, 80);
         layoutParams.x = 800;
         layoutParams.y = 200;
         nums = new int[15];

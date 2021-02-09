@@ -1,380 +1,383 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/display_view"
-    android:layout_width="80dp"
-    android:layout_height="640dp"
+    android:layout_width="640dp"
+    android:layout_height="80dp"
     android:background="@color/bg1"
-    android:orientation="vertical">
+    android:orientation="horizontal">
 
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:id="@+id/numx"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:text="1"
-            android:textColor="@color/warn"
-            android:textStyle="bold"
-            android:gravity="center" />
-
-        <dongzhong.testforfloatingwindow.RotateTextView
+        <TextView
             android:id="@+id/tv_max"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:gravity="center"
             android:text="大王"
             android:textColor="@color/card_title" />
+
+        <TextView
+            android:id="@+id/numx"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/warn"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:id="@+id/numy"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:text="1"
-            android:textColor="@color/warn"
-            android:textStyle="bold"
-            android:gravity="center" />
-
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:gravity="center"
             android:text="小王"
             android:textColor="@color/card_title" />
+
+        <TextView
+            android:id="@+id/numy"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/warn"
+            android:textStyle="bold" />
+
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:id="@+id/num2"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:text="4"
-            android:textColor="@color/warn"
-            android:textStyle="bold"
-            android:gravity="center" />
-
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:gravity="center"
             android:text="2"
             android:textColor="@color/card_title" />
+
+        <TextView
+            android:id="@+id/num2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/warn"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:id="@+id/num1"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:text="4"
-            android:textColor="@color/warn"
-            android:textStyle="bold"
-            android:gravity="center" />
-
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:gravity="center"
             android:text="A"
             android:textColor="@color/card_title" />
+
+        <TextView
+            android:id="@+id/num1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/warn"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:id="@+id/numk"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:text="4"
-            android:textColor="@color/warn"
-            android:textStyle="bold"
-            android:gravity="center" />
-
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:gravity="center"
             android:text="K"
             android:textColor="@color/card_title" />
+
+        <TextView
+            android:id="@+id/numk"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/warn"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:id="@+id/numq"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:text="4"
-            android:textColor="@color/warn"
-            android:textStyle="bold"
-            android:gravity="center" />
-
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:gravity="center"
             android:text="Q"
             android:textColor="@color/card_title" />
+
+        <TextView
+            android:id="@+id/numq"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/warn"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:id="@+id/numj"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:text="4"
-            android:textColor="@color/warn"
-            android:textStyle="bold"
-            android:gravity="center" />
-
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:gravity="center"
             android:text="J"
             android:textColor="@color/card_title" />
+
+        <TextView
+            android:id="@+id/numj"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/warn"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:id="@+id/num10"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:text="4"
-            android:textColor="@color/warn"
-            android:textStyle="bold"
-            android:gravity="center" />
-
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:gravity="center"
             android:text="10"
             android:textColor="@color/card_title" />
+
+        <TextView
+            android:id="@+id/num10"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/warn"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:id="@+id/num9"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:text="4"
-            android:textColor="@color/warn"
-            android:textStyle="bold"
-            android:gravity="center" />
-
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:gravity="center"
             android:text="9"
             android:textColor="@color/card_title" />
+
+        <TextView
+            android:id="@+id/num9"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/warn"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:id="@+id/num8"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:text="4"
-            android:textColor="@color/warn"
-            android:textStyle="bold"
-            android:gravity="center" />
-
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:gravity="center"
             android:text="8"
             android:textColor="@color/card_title" />
+
+        <TextView
+            android:id="@+id/num8"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/warn"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:id="@+id/num7"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:text="4"
-            android:textColor="@color/warn"
-            android:textStyle="bold"
-            android:gravity="center" />
-
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:gravity="center"
             android:text="7"
             android:textColor="@color/card_title" />
+
+        <TextView
+            android:id="@+id/num7"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/warn"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:id="@+id/num6"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:text="4"
-            android:textColor="@color/warn"
-            android:textStyle="bold"
-            android:gravity="center" />
-
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:gravity="center"
             android:text="6"
             android:textColor="@color/card_title" />
+
+        <TextView
+            android:id="@+id/num6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/warn"
+            android:textStyle="bold" />
+
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:id="@+id/num5"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:text="4"
-            android:textColor="@color/warn"
-            android:textStyle="bold"
-            android:gravity="center" />
-
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:gravity="center"
             android:text="5"
             android:textColor="@color/card_title" />
+
+        <TextView
+            android:id="@+id/num5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/warn"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:id="@+id/num4"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:text="4"
-            android:textColor="@color/warn"
-            android:textStyle="bold"
-            android:gravity="center" />
-
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:gravity="center"
             android:text="4"
             android:textColor="@color/card_title" />
+
+        <TextView
+            android:id="@+id/num4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/warn"
+            android:textStyle="bold" />
+
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:id="@+id/num3"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:text="4"
-            android:textColor="@color/warn"
-            android:textStyle="bold"
-            android:gravity="center" />
-
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:gravity="center"
             android:text="3"
             android:textColor="@color/card_title" />
+
+        <TextView
+            android:id="@+id/num3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/warn"
+            android:textStyle="bold" />
+
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
         android:background="@color/bg2"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <dongzhong.testforfloatingwindow.RotateTextView
-            android:id="@+id/reset"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:textColor="@color/green"
-            android:text="重置" />
-
-        <dongzhong.testforfloatingwindow.RotateTextView
+        <TextView
             android:id="@+id/close"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:gravity="center"
             android:text="关闭"
             android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/reset"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="重置"
+            android:textColor="@color/green" />
     </LinearLayout>
 </LinearLayout>
